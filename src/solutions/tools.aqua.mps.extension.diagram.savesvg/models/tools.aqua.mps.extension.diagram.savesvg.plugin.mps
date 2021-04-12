@@ -700,6 +700,9 @@
       <ref role="tU$_T" to="tprs:hyf4LYI" resolve="Tools" />
       <ref role="2f8Tey" to="tprs:hHYwqIT" resolve="customTools" />
     </node>
+    <node concept="tT9cl" id="6VGeL9zDMqK" role="2f5YQi">
+      <ref role="tU$_T" to="tprs:1xsN4xJX8VC" resolve="EditorPopup_Show" />
+    </node>
   </node>
   <node concept="sE7Ow" id="7q_yTthTDRq">
     <property role="TrG5h" value="SaveSVG" />
@@ -923,7 +926,7 @@
                     <node concept="37vLTw" id="6VGeL9zDAPY" role="2Oq$k0">
                       <ref role="3cqZAo" node="7q_yTti0wve" resolve="file" />
                     </node>
-                    <node concept="liA8E" id="6VGeL9zDAZj" role="2OqNvi">
+                    <node concept="liA8E" id="6VGeL9zDZZ6" role="2OqNvi">
                       <ref role="37wK5l" to="guwi:~File.getName()" resolve="getName" />
                     </node>
                   </node>
@@ -967,14 +970,12 @@
                 </node>
                 <node concept="3cpWs6" id="6VGeL9zDFw_" role="3cqZAp" />
               </node>
-              <node concept="3fqX7Q" id="7q_yTti0Ng2" role="3clFbw">
-                <node concept="2OqwBi" id="7q_yTti0Ng4" role="3fr31v">
-                  <node concept="37vLTw" id="7q_yTti0Ng5" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7q_yTti0wve" resolve="file" />
-                  </node>
-                  <node concept="liA8E" id="7q_yTti0Ng6" role="2OqNvi">
-                    <ref role="37wK5l" to="guwi:~File.isDirectory()" resolve="isDirectory" />
-                  </node>
+              <node concept="2OqwBi" id="7q_yTti0Ng4" role="3clFbw">
+                <node concept="37vLTw" id="7q_yTti0Ng5" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7q_yTti0wve" resolve="file" />
+                </node>
+                <node concept="liA8E" id="7q_yTti0Ng6" role="2OqNvi">
+                  <ref role="37wK5l" to="guwi:~File.isDirectory()" resolve="isDirectory" />
                 </node>
               </node>
             </node>
