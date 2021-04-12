@@ -842,644 +842,639 @@
             <node concept="3oM_SD" id="7q_yTti1eWN" role="1PaTwD">
               <property role="3oM_SC" value="dialog" />
             </node>
-            <node concept="3oM_SD" id="7q_yTti1eXd" role="1PaTwD">
-              <property role="3oM_SC" value="returned" />
+            <node concept="3oM_SD" id="6VGeL9zEmX_" role="1PaTwD">
+              <property role="3oM_SC" value="was" />
             </node>
-            <node concept="3oM_SD" id="7q_yTti1eXW" role="1PaTwD">
-              <property role="3oM_SC" value="a" />
-            </node>
-            <node concept="3oM_SD" id="7q_yTti1eYe" role="1PaTwD">
-              <property role="3oM_SC" value="correct" />
-            </node>
-            <node concept="3oM_SD" id="7q_yTti1eYn" role="1PaTwD">
-              <property role="3oM_SC" value="value" />
+            <node concept="3oM_SD" id="6VGeL9zEmZ0" role="1PaTwD">
+              <property role="3oM_SC" value="canceled" />
             </node>
           </node>
         </node>
         <node concept="3clFbJ" id="7q_yTti0v5D" role="3cqZAp">
           <node concept="3clFbS" id="7q_yTti0v5F" role="3clFbx">
-            <node concept="3SKdUt" id="7q_yTti1f4a" role="3cqZAp">
-              <node concept="1PaTwC" id="7q_yTti1f4b" role="1aUNEU">
-                <node concept="3oM_SD" id="7q_yTti1f4c" role="1PaTwD">
-                  <property role="3oM_SC" value="Get" />
-                </node>
-                <node concept="3oM_SD" id="7q_yTti1f6c" role="1PaTwD">
-                  <property role="3oM_SC" value="the" />
-                </node>
-                <node concept="3oM_SD" id="7q_yTti1f6q" role="1PaTwD">
-                  <property role="3oM_SC" value="selected" />
-                </node>
-                <node concept="3oM_SD" id="7q_yTti1f6N" role="1PaTwD">
-                  <property role="3oM_SC" value="file" />
-                </node>
-              </node>
-            </node>
-            <node concept="3cpWs8" id="7q_yTti0wvd" role="3cqZAp">
-              <node concept="3cpWsn" id="7q_yTti0wve" role="3cpWs9">
-                <property role="TrG5h" value="file" />
-                <node concept="3uibUv" id="7q_yTti0wvf" role="1tU5fm">
-                  <ref role="3uigEE" to="guwi:~File" resolve="File" />
-                </node>
-                <node concept="2OqwBi" id="7q_yTti0wI2" role="33vP2m">
-                  <node concept="37vLTw" id="7q_yTti0wvM" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7q_yTti0pgL" resolve="fc" />
-                  </node>
-                  <node concept="liA8E" id="7q_yTti0x1b" role="2OqNvi">
-                    <ref role="37wK5l" to="dxuu:~JFileChooser.getSelectedFile()" resolve="getSelectedFile" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3SKdUt" id="6VGeL9zE8u$" role="3cqZAp">
-              <node concept="1PaTwC" id="6VGeL9zE8u_" role="1aUNEU">
-                <node concept="3oM_SD" id="6VGeL9zE8uA" role="1PaTwD">
-                  <property role="3oM_SC" value="Check" />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE8wY" role="1PaTwD">
-                  <property role="3oM_SC" value="if" />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE8x2" role="1PaTwD">
-                  <property role="3oM_SC" value="the" />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE8x7" role="1PaTwD">
-                  <property role="3oM_SC" value="file" />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE8CQ" role="1PaTwD">
-                  <property role="3oM_SC" value="has" />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE8FM" role="1PaTwD">
-                  <property role="3oM_SC" value="the" />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE8FU" role="1PaTwD">
-                  <property role="3oM_SC" value="correct" />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE8G3" role="1PaTwD">
-                  <property role="3oM_SC" value="file" />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE8Gd" role="1PaTwD">
-                  <property role="3oM_SC" value="extension" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbJ" id="6VGeL9zDAoc" role="3cqZAp">
-              <node concept="3clFbS" id="6VGeL9zDAoe" role="3clFbx">
-                <node concept="3clFbF" id="6VGeL9zDBwy" role="3cqZAp">
-                  <node concept="2YIFZM" id="6VGeL9zDBwz" role="3clFbG">
-                    <ref role="37wK5l" to="dxuu:~JOptionPane.showMessageDialog(java.awt.Component,java.lang.Object,java.lang.String,int)" resolve="showMessageDialog" />
-                    <ref role="1Pybhc" to="dxuu:~JOptionPane" resolve="JOptionPane" />
-                    <node concept="10Nm6u" id="6VGeL9zDBw$" role="37wK5m" />
-                    <node concept="3cpWs3" id="6VGeL9zDBX0" role="37wK5m">
-                      <node concept="Xl_RD" id="6VGeL9zDBXe" role="3uHU7w">
-                        <property role="Xl_RC" value="' is not a valid SVG file (.svg file extension necessary)." />
-                      </node>
-                      <node concept="3cpWs3" id="6VGeL9zDBwC" role="3uHU7B">
-                        <node concept="Xl_RD" id="6VGeL9zDBwD" role="3uHU7B">
-                          <property role="Xl_RC" value="The file: '" />
-                        </node>
-                        <node concept="37vLTw" id="6VGeL9zDBwE" role="3uHU7w">
-                          <ref role="3cqZAo" node="7q_yTti0wve" resolve="file" />
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="Xl_RD" id="6VGeL9zDBwG" role="37wK5m">
-                      <property role="Xl_RC" value="Error" />
-                    </node>
-                    <node concept="10M0yZ" id="6VGeL9zDBwH" role="37wK5m">
-                      <ref role="3cqZAo" to="dxuu:~JOptionPane.ERROR_MESSAGE" resolve="ERROR_MESSAGE" />
-                      <ref role="1PxDUh" to="dxuu:~JOptionPane" resolve="JOptionPane" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3cpWs6" id="6VGeL9zDERD" role="3cqZAp" />
-              </node>
-              <node concept="3fqX7Q" id="6VGeL9zDAPV" role="3clFbw">
-                <node concept="2OqwBi" id="6VGeL9zDBau" role="3fr31v">
-                  <node concept="2OqwBi" id="6VGeL9zDAPX" role="2Oq$k0">
-                    <node concept="37vLTw" id="6VGeL9zDAPY" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7q_yTti0wve" resolve="file" />
-                    </node>
-                    <node concept="liA8E" id="6VGeL9zDZZ6" role="2OqNvi">
-                      <ref role="37wK5l" to="guwi:~File.getName()" resolve="getName" />
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="6VGeL9zDBq5" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.endsWith(java.lang.String)" resolve="endsWith" />
-                    <node concept="Xl_RD" id="6VGeL9zDBsv" role="37wK5m">
-                      <property role="Xl_RC" value="svg" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3SKdUt" id="6VGeL9zE93Y" role="3cqZAp">
-              <node concept="1PaTwC" id="6VGeL9zE93Z" role="1aUNEU">
-                <node concept="3oM_SD" id="6VGeL9zE940" role="1PaTwD">
-                  <property role="3oM_SC" value="Check" />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE9dU" role="1PaTwD">
-                  <property role="3oM_SC" value="that" />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE9dY" role="1PaTwD">
-                  <property role="3oM_SC" value="the" />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE9fm" role="1PaTwD">
-                  <property role="3oM_SC" value="user" />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE9fs" role="1PaTwD">
-                  <property role="3oM_SC" value="has" />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE9h6" role="1PaTwD">
-                  <property role="3oM_SC" value="not" />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE9he" role="1PaTwD">
-                  <property role="3oM_SC" value="selected" />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE9ld" role="1PaTwD">
-                  <property role="3oM_SC" value="a" />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE9ln" role="1PaTwD">
-                  <property role="3oM_SC" value="directory" />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE9o6" role="1PaTwD">
-                  <property role="3oM_SC" value="and" />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE9p$" role="1PaTwD">
-                  <property role="3oM_SC" value="that" />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE9pL" role="1PaTwD">
-                  <property role="3oM_SC" value="the" />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE9pZ" role="1PaTwD">
-                  <property role="3oM_SC" value="file" />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE9rw" role="1PaTwD">
-                  <property role="3oM_SC" value="is" />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE9rK" role="1PaTwD">
-                  <property role="3oM_SC" value="indeed" />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE9tj" role="1PaTwD">
-                  <property role="3oM_SC" value="a" />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE9t_" role="1PaTwD">
-                  <property role="3oM_SC" value="file" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbJ" id="7q_yTti0zMH" role="3cqZAp">
-              <node concept="3clFbS" id="7q_yTti0zMJ" role="3clFbx">
-                <node concept="3clFbF" id="6VGeL9zDFmJ" role="3cqZAp">
-                  <node concept="2YIFZM" id="6VGeL9zDFmK" role="3clFbG">
-                    <ref role="37wK5l" to="dxuu:~JOptionPane.showMessageDialog(java.awt.Component,java.lang.Object,java.lang.String,int)" resolve="showMessageDialog" />
-                    <ref role="1Pybhc" to="dxuu:~JOptionPane" resolve="JOptionPane" />
-                    <node concept="10Nm6u" id="6VGeL9zDFmL" role="37wK5m" />
-                    <node concept="3cpWs3" id="6VGeL9zDFmM" role="37wK5m">
-                      <node concept="Xl_RD" id="6VGeL9zDFmN" role="3uHU7w">
-                        <property role="Xl_RC" value="' is not a valid SVG file (.svg file extension necessary)." />
-                      </node>
-                      <node concept="3cpWs3" id="6VGeL9zDFmO" role="3uHU7B">
-                        <node concept="Xl_RD" id="6VGeL9zDFmP" role="3uHU7B">
-                          <property role="Xl_RC" value="The file: '" />
-                        </node>
-                        <node concept="37vLTw" id="6VGeL9zDFmQ" role="3uHU7w">
-                          <ref role="3cqZAo" node="7q_yTti0wve" resolve="file" />
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="Xl_RD" id="6VGeL9zDFmR" role="37wK5m">
-                      <property role="Xl_RC" value="Error" />
-                    </node>
-                    <node concept="10M0yZ" id="6VGeL9zDFmS" role="37wK5m">
-                      <ref role="3cqZAo" to="dxuu:~JOptionPane.ERROR_MESSAGE" resolve="ERROR_MESSAGE" />
-                      <ref role="1PxDUh" to="dxuu:~JOptionPane" resolve="JOptionPane" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3cpWs6" id="6VGeL9zDFw_" role="3cqZAp" />
-              </node>
-              <node concept="1Wc70l" id="6VGeL9zEa0i" role="3clFbw">
-                <node concept="3fqX7Q" id="6VGeL9zEamw" role="3uHU7w">
-                  <node concept="2OqwBi" id="6VGeL9zEamy" role="3fr31v">
-                    <node concept="37vLTw" id="6VGeL9zEamz" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7q_yTti0wve" resolve="file" />
-                    </node>
-                    <node concept="liA8E" id="6VGeL9zEam$" role="2OqNvi">
-                      <ref role="37wK5l" to="guwi:~File.isFile()" resolve="isFile" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="7q_yTti0Ng4" role="3uHU7B">
-                  <node concept="37vLTw" id="7q_yTti0Ng5" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7q_yTti0wve" resolve="file" />
-                  </node>
-                  <node concept="liA8E" id="7q_yTti0Ng6" role="2OqNvi">
-                    <ref role="37wK5l" to="guwi:~File.isDirectory()" resolve="isDirectory" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3J1_TO" id="6VGeL9zCYWZ" role="3cqZAp">
-              <node concept="3uVAMA" id="6VGeL9zCZ5B" role="1zxBo5">
-                <node concept="XOnhg" id="6VGeL9zCZ5C" role="1zc67B">
-                  <property role="TrG5h" value="e" />
-                  <node concept="nSUau" id="6VGeL9zCZ5D" role="1tU5fm">
-                    <node concept="3uibUv" id="6VGeL9zCZuL" role="nSUat">
-                      <ref role="3uigEE" to="guwi:~FileNotFoundException" resolve="FileNotFoundException" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3clFbS" id="6VGeL9zCZ5E" role="1zc67A">
-                  <node concept="3SKdUt" id="6VGeL9zEbQ_" role="3cqZAp">
-                    <node concept="1PaTwC" id="6VGeL9zEbQA" role="1aUNEU">
-                      <node concept="3oM_SD" id="6VGeL9zEbQB" role="1PaTwD">
-                        <property role="3oM_SC" value="The" />
-                      </node>
-                      <node concept="3oM_SD" id="6VGeL9zEbTj" role="1PaTwD">
-                        <property role="3oM_SC" value="selected" />
-                      </node>
-                      <node concept="3oM_SD" id="6VGeL9zEbZL" role="1PaTwD">
-                        <property role="3oM_SC" value="file" />
-                      </node>
-                      <node concept="3oM_SD" id="6VGeL9zEbZQ" role="1PaTwD">
-                        <property role="3oM_SC" value="was" />
-                      </node>
-                      <node concept="3oM_SD" id="6VGeL9zEc1e" role="1PaTwD">
-                        <property role="3oM_SC" value="not" />
-                      </node>
-                      <node concept="3oM_SD" id="6VGeL9zEc2B" role="1PaTwD">
-                        <property role="3oM_SC" value="found" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3SKdUt" id="6VGeL9zEcbD" role="3cqZAp">
-                    <node concept="1PaTwC" id="6VGeL9zEcbE" role="1aUNEU">
-                      <node concept="3oM_SD" id="6VGeL9zEcbF" role="1PaTwD">
-                        <property role="3oM_SC" value="TODO:" />
-                      </node>
-                      <node concept="3oM_SD" id="6VGeL9zEcfP" role="1PaTwD">
-                        <property role="3oM_SC" value="If" />
-                      </node>
-                      <node concept="3oM_SD" id="6VGeL9zEcjJ" role="1PaTwD">
-                        <property role="3oM_SC" value="file" />
-                      </node>
-                      <node concept="3oM_SD" id="6VGeL9zEcl6" role="1PaTwD">
-                        <property role="3oM_SC" value="is" />
-                      </node>
-                      <node concept="3oM_SD" id="6VGeL9zEcmu" role="1PaTwD">
-                        <property role="3oM_SC" value="not" />
-                      </node>
-                      <node concept="3oM_SD" id="6VGeL9zEcm_" role="1PaTwD">
-                        <property role="3oM_SC" value="found" />
-                      </node>
-                      <node concept="3oM_SD" id="6VGeL9zEcnZ" role="1PaTwD">
-                        <property role="3oM_SC" value="create" />
-                      </node>
-                      <node concept="3oM_SD" id="6VGeL9zEco8" role="1PaTwD">
-                        <property role="3oM_SC" value="new" />
-                      </node>
-                      <node concept="3oM_SD" id="6VGeL9zEcp$" role="1PaTwD">
-                        <property role="3oM_SC" value="file" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3SKdUt" id="6VGeL9zEa$s" role="3cqZAp">
-                    <node concept="1PaTwC" id="6VGeL9zEa$t" role="1aUNEU">
-                      <node concept="3oM_SD" id="6VGeL9zEaYi" role="1PaTwD">
-                        <property role="3oM_SC" value="Show" />
-                      </node>
-                      <node concept="3oM_SD" id="6VGeL9zEb2z" role="1PaTwD">
-                        <property role="3oM_SC" value="error" />
-                      </node>
-                      <node concept="3oM_SD" id="6VGeL9zEb3T" role="1PaTwD">
-                        <property role="3oM_SC" value="to" />
-                      </node>
-                      <node concept="3oM_SD" id="6VGeL9zEb5g" role="1PaTwD">
-                        <property role="3oM_SC" value="user" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3clFbF" id="6VGeL9zDum0" role="3cqZAp">
-                    <node concept="2YIFZM" id="6VGeL9zDum1" role="3clFbG">
-                      <ref role="37wK5l" to="dxuu:~JOptionPane.showMessageDialog(java.awt.Component,java.lang.Object,java.lang.String,int)" resolve="showMessageDialog" />
-                      <ref role="1Pybhc" to="dxuu:~JOptionPane" resolve="JOptionPane" />
-                      <node concept="10Nm6u" id="6VGeL9zDum2" role="37wK5m" />
-                      <node concept="3cpWs3" id="6VGeL9zDw4P" role="37wK5m">
-                        <node concept="37vLTw" id="6VGeL9zDw53" role="3uHU7w">
-                          <ref role="3cqZAo" node="6VGeL9zCZ5C" resolve="e" />
-                        </node>
-                        <node concept="3cpWs3" id="6VGeL9zDviJ" role="3uHU7B">
-                          <node concept="3cpWs3" id="6VGeL9zDum3" role="3uHU7B">
-                            <node concept="Xl_RD" id="6VGeL9zDum5" role="3uHU7B">
-                              <property role="Xl_RC" value="The file: '" />
-                            </node>
-                            <node concept="37vLTw" id="6VGeL9zDum4" role="3uHU7w">
-                              <ref role="3cqZAo" node="7q_yTti0wve" resolve="file" />
-                            </node>
-                          </node>
-                          <node concept="Xl_RD" id="6VGeL9zDvmw" role="3uHU7w">
-                            <property role="Xl_RC" value="' cannot be found. ErrorMessage: " />
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="Xl_RD" id="6VGeL9zDuxO" role="37wK5m">
-                        <property role="Xl_RC" value="Error" />
-                      </node>
-                      <node concept="10M0yZ" id="6VGeL9zDuO5" role="37wK5m">
-                        <ref role="3cqZAo" to="dxuu:~JOptionPane.ERROR_MESSAGE" resolve="ERROR_MESSAGE" />
-                        <ref role="1PxDUh" to="dxuu:~JOptionPane" resolve="JOptionPane" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3cpWs6" id="6VGeL9zDIfr" role="3cqZAp" />
-                </node>
-              </node>
-              <node concept="3uVAMA" id="6VGeL9zCZyx" role="1zxBo5">
-                <node concept="XOnhg" id="6VGeL9zCZyy" role="1zc67B">
-                  <property role="TrG5h" value="e" />
-                  <node concept="nSUau" id="6VGeL9zCZyz" role="1tU5fm">
-                    <node concept="3uibUv" id="6VGeL9zD024" role="nSUat">
-                      <ref role="3uigEE" to="guwi:~UnsupportedEncodingException" resolve="UnsupportedEncodingException" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3clFbS" id="6VGeL9zCZy$" role="1zc67A">
-                  <node concept="3SKdUt" id="6VGeL9zEczr" role="3cqZAp">
-                    <node concept="1PaTwC" id="6VGeL9zEczs" role="1aUNEU">
-                      <node concept="3oM_SD" id="6VGeL9zEczt" role="1PaTwD">
-                        <property role="3oM_SC" value="The" />
-                      </node>
-                      <node concept="3oM_SD" id="6VGeL9zEc_O" role="1PaTwD">
-                        <property role="3oM_SC" value="UTF-8" />
-                      </node>
-                      <node concept="3oM_SD" id="6VGeL9zEcCs" role="1PaTwD">
-                        <property role="3oM_SC" value="encoding" />
-                      </node>
-                      <node concept="3oM_SD" id="6VGeL9zEcF5" role="1PaTwD">
-                        <property role="3oM_SC" value="is" />
-                      </node>
-                      <node concept="3oM_SD" id="6VGeL9zEcGt" role="1PaTwD">
-                        <property role="3oM_SC" value="not" />
-                      </node>
-                      <node concept="3oM_SD" id="6VGeL9zEcJ8" role="1PaTwD">
-                        <property role="3oM_SC" value="supported" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3SKdUt" id="6VGeL9zEaNL" role="3cqZAp">
-                    <node concept="1PaTwC" id="6VGeL9zEaNM" role="1aUNEU">
-                      <node concept="3oM_SD" id="6VGeL9zEaNN" role="1PaTwD">
-                        <property role="3oM_SC" value="Show" />
-                      </node>
-                      <node concept="3oM_SD" id="6VGeL9zEaRw" role="1PaTwD">
-                        <property role="3oM_SC" value="error" />
-                      </node>
-                      <node concept="3oM_SD" id="6VGeL9zEaSQ" role="1PaTwD">
-                        <property role="3oM_SC" value="to" />
-                      </node>
-                      <node concept="3oM_SD" id="6VGeL9zEaUd" role="1PaTwD">
-                        <property role="3oM_SC" value="user" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3clFbF" id="6VGeL9zDwfc" role="3cqZAp">
-                    <node concept="2YIFZM" id="6VGeL9zDwfd" role="3clFbG">
-                      <ref role="37wK5l" to="dxuu:~JOptionPane.showMessageDialog(java.awt.Component,java.lang.Object,java.lang.String,int)" resolve="showMessageDialog" />
-                      <ref role="1Pybhc" to="dxuu:~JOptionPane" resolve="JOptionPane" />
-                      <node concept="10Nm6u" id="6VGeL9zDwfe" role="37wK5m" />
-                      <node concept="3cpWs3" id="6VGeL9zDwff" role="37wK5m">
-                        <node concept="37vLTw" id="6VGeL9zDwfg" role="3uHU7w">
-                          <ref role="3cqZAo" node="6VGeL9zCZyy" resolve="e" />
-                        </node>
-                        <node concept="Xl_RD" id="6VGeL9zDwEi" role="3uHU7B">
-                          <property role="Xl_RC" value="The UTF-8 encoding is unsupported. ErrorMessage: " />
-                        </node>
-                      </node>
-                      <node concept="Xl_RD" id="6VGeL9zDwfm" role="37wK5m">
-                        <property role="Xl_RC" value="Error" />
-                      </node>
-                      <node concept="10M0yZ" id="6VGeL9zDwfn" role="37wK5m">
-                        <ref role="1PxDUh" to="dxuu:~JOptionPane" resolve="JOptionPane" />
-                        <ref role="3cqZAo" to="dxuu:~JOptionPane.ERROR_MESSAGE" resolve="ERROR_MESSAGE" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3cpWs6" id="6VGeL9zDIi0" role="3cqZAp" />
-                </node>
-              </node>
-              <node concept="3uVAMA" id="6VGeL9zD0kX" role="1zxBo5">
-                <node concept="XOnhg" id="6VGeL9zD0kY" role="1zc67B">
-                  <property role="TrG5h" value="e" />
-                  <node concept="nSUau" id="6VGeL9zD0kZ" role="1tU5fm">
-                    <node concept="3uibUv" id="6VGeL9zD0qk" role="nSUat">
-                      <ref role="3uigEE" to="nxzt:~SVGGraphics2DIOException" resolve="SVGGraphics2DIOException" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3clFbS" id="6VGeL9zD0l0" role="1zc67A">
-                  <node concept="3SKdUt" id="6VGeL9zEcSQ" role="3cqZAp">
-                    <node concept="1PaTwC" id="6VGeL9zEcSR" role="1aUNEU">
-                      <node concept="3oM_SD" id="6VGeL9zEcSS" role="1PaTwD">
-                        <property role="3oM_SC" value="Streaming" />
-                      </node>
-                      <node concept="3oM_SD" id="6VGeL9zEcWx" role="1PaTwD">
-                        <property role="3oM_SC" value="the" />
-                      </node>
-                      <node concept="3oM_SD" id="6VGeL9zEcXR" role="1PaTwD">
-                        <property role="3oM_SC" value="SVGGraphics2D" />
-                      </node>
-                      <node concept="3oM_SD" id="6VGeL9zEd0w" role="1PaTwD">
-                        <property role="3oM_SC" value="into" />
-                      </node>
-                      <node concept="3oM_SD" id="6VGeL9zEd1S" role="1PaTwD">
-                        <property role="3oM_SC" value="the" />
-                      </node>
-                      <node concept="3oM_SD" id="6VGeL9zEd1Z" role="1PaTwD">
-                        <property role="3oM_SC" value="OutputStream" />
-                      </node>
-                      <node concept="3oM_SD" id="6VGeL9zEd7f" role="1PaTwD">
-                        <property role="3oM_SC" value="threw" />
-                      </node>
-                      <node concept="3oM_SD" id="6VGeL9zEd9W" role="1PaTwD">
-                        <property role="3oM_SC" value="an" />
-                      </node>
-                      <node concept="3oM_SD" id="6VGeL9zEda6" role="1PaTwD">
-                        <property role="3oM_SC" value="error" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3SKdUt" id="6VGeL9zEdjX" role="3cqZAp">
-                    <node concept="1PaTwC" id="6VGeL9zEdjY" role="1aUNEU">
-                      <node concept="3oM_SD" id="6VGeL9zEdqw" role="1PaTwD">
-                        <property role="3oM_SC" value="Show" />
-                      </node>
-                      <node concept="3oM_SD" id="6VGeL9zEds0" role="1PaTwD">
-                        <property role="3oM_SC" value="error" />
-                      </node>
-                      <node concept="3oM_SD" id="6VGeL9zEduC" role="1PaTwD">
-                        <property role="3oM_SC" value="to" />
-                      </node>
-                      <node concept="3oM_SD" id="6VGeL9zEduH" role="1PaTwD">
-                        <property role="3oM_SC" value="user" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3clFbF" id="6VGeL9zDx1Y" role="3cqZAp">
-                    <node concept="2YIFZM" id="6VGeL9zDx1Z" role="3clFbG">
-                      <ref role="1Pybhc" to="dxuu:~JOptionPane" resolve="JOptionPane" />
-                      <ref role="37wK5l" to="dxuu:~JOptionPane.showMessageDialog(java.awt.Component,java.lang.Object,java.lang.String,int)" resolve="showMessageDialog" />
-                      <node concept="10Nm6u" id="6VGeL9zDx20" role="37wK5m" />
-                      <node concept="3cpWs3" id="6VGeL9zDx21" role="37wK5m">
-                        <node concept="37vLTw" id="6VGeL9zDx22" role="3uHU7w">
-                          <ref role="3cqZAo" node="6VGeL9zD0kY" resolve="e" />
-                        </node>
-                        <node concept="Xl_RD" id="6VGeL9zDx23" role="3uHU7B">
-                          <property role="Xl_RC" value="There was an error writing the SVG file. ErrorMessage: " />
-                        </node>
-                      </node>
-                      <node concept="Xl_RD" id="6VGeL9zDx24" role="37wK5m">
-                        <property role="Xl_RC" value="Error" />
-                      </node>
-                      <node concept="10M0yZ" id="6VGeL9zDx25" role="37wK5m">
-                        <ref role="1PxDUh" to="dxuu:~JOptionPane" resolve="JOptionPane" />
-                        <ref role="3cqZAo" to="dxuu:~JOptionPane.ERROR_MESSAGE" resolve="ERROR_MESSAGE" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3cpWs6" id="6VGeL9zDIk7" role="3cqZAp" />
-                </node>
-              </node>
-              <node concept="3clFbS" id="6VGeL9zCYX1" role="1zxBo7">
-                <node concept="3SKdUt" id="7q_yTti1fcP" role="3cqZAp">
-                  <node concept="1PaTwC" id="7q_yTti1fcQ" role="1aUNEU">
-                    <node concept="3oM_SD" id="7q_yTti1fcR" role="1PaTwD">
-                      <property role="3oM_SC" value="Save" />
-                    </node>
-                    <node concept="3oM_SD" id="7q_yTti1fdH" role="1PaTwD">
-                      <property role="3oM_SC" value="the" />
-                    </node>
-                    <node concept="3oM_SD" id="7q_yTti1fdL" role="1PaTwD">
-                      <property role="3oM_SC" value="current" />
-                    </node>
-                    <node concept="3oM_SD" id="7q_yTti1fe0" role="1PaTwD">
-                      <property role="3oM_SC" value="Diagram" />
-                    </node>
-                    <node concept="3oM_SD" id="7q_yTti1feg" role="1PaTwD">
-                      <property role="3oM_SC" value="as" />
-                    </node>
-                    <node concept="3oM_SD" id="7q_yTti1fen" role="1PaTwD">
-                      <property role="3oM_SC" value="a" />
-                    </node>
-                    <node concept="3oM_SD" id="7q_yTti1feD" role="1PaTwD">
-                      <property role="3oM_SC" value="SVG" />
-                    </node>
-                    <node concept="3oM_SD" id="7q_yTti1feW" role="1PaTwD">
-                      <property role="3oM_SC" value="image" />
-                    </node>
-                    <node concept="3oM_SD" id="7q_yTti1ff6" role="1PaTwD">
-                      <property role="3oM_SC" value="in" />
-                    </node>
-                    <node concept="3oM_SD" id="7q_yTti1ffr" role="1PaTwD">
-                      <property role="3oM_SC" value="the" />
-                    </node>
-                    <node concept="3oM_SD" id="7q_yTti1ffB" role="1PaTwD">
-                      <property role="3oM_SC" value="entered" />
-                    </node>
-                    <node concept="3oM_SD" id="7q_yTti1ffY" role="1PaTwD">
-                      <property role="3oM_SC" value="location" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3clFbF" id="7q_yTti0Nfn" role="3cqZAp">
-                  <node concept="2YIFZM" id="7q_yTti0NlP" role="3clFbG">
-                    <ref role="37wK5l" node="7q_yTthSEKt" resolve="saveSvg" />
-                    <ref role="1Pybhc" node="7q_yTthSx2P" resolve="SaveSvgIdeaActionUtil" />
-                    <node concept="2OqwBi" id="7q_yTti0Ny6" role="37wK5m">
-                      <node concept="2WthIp" id="7q_yTti0Nmj" role="2Oq$k0" />
-                      <node concept="1DTwFV" id="7q_yTti0NGP" role="2OqNvi">
-                        <ref role="2WH_rO" node="7q_yTthTGJn" resolve="editorContext" />
-                      </node>
-                    </node>
-                    <node concept="37vLTw" id="7q_yTti0NJB" role="37wK5m">
-                      <ref role="3cqZAo" node="7q_yTti0wve" resolve="file" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3SKdUt" id="6VGeL9zE7LM" role="3cqZAp">
-              <node concept="1PaTwC" id="6VGeL9zE7LN" role="1aUNEU">
-                <node concept="3oM_SD" id="6VGeL9zE7LO" role="1PaTwD">
-                  <property role="3oM_SC" value="The" />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE7Vz" role="1PaTwD">
-                  <property role="3oM_SC" value="SVG" />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE7WT" role="1PaTwD">
-                  <property role="3oM_SC" value="was" />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE7WY" role="1PaTwD">
-                  <property role="3oM_SC" value="successfully" />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE7Ym" role="1PaTwD">
-                  <property role="3oM_SC" value="writing" />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE82j" role="1PaTwD">
-                  <property role="3oM_SC" value="to" />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE82r" role="1PaTwD">
-                  <property role="3oM_SC" value="the" />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE82$" role="1PaTwD">
-                  <property role="3oM_SC" value="disc." />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE840" role="1PaTwD">
-                  <property role="3oM_SC" value="Display" />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE878" role="1PaTwD">
-                  <property role="3oM_SC" value="that" />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE88A" role="1PaTwD">
-                  <property role="3oM_SC" value="information" />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE88N" role="1PaTwD">
-                  <property role="3oM_SC" value="to" />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE891" role="1PaTwD">
-                  <property role="3oM_SC" value="the" />
-                </node>
-                <node concept="3oM_SD" id="6VGeL9zE89g" role="1PaTwD">
-                  <property role="3oM_SC" value="user" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="6VGeL9zDje0" role="3cqZAp">
-              <node concept="2YIFZM" id="6VGeL9zDjiw" role="3clFbG">
-                <ref role="1Pybhc" to="dxuu:~JOptionPane" resolve="JOptionPane" />
-                <ref role="37wK5l" to="dxuu:~JOptionPane.showMessageDialog(java.awt.Component,java.lang.Object)" resolve="showMessageDialog" />
-                <node concept="10Nm6u" id="6VGeL9zDjlt" role="37wK5m" />
-                <node concept="3cpWs3" id="6VGeL9zDvw6" role="37wK5m">
-                  <node concept="Xl_RD" id="6VGeL9zDvwk" role="3uHU7w">
-                    <property role="Xl_RC" value="'" />
-                  </node>
-                  <node concept="3cpWs3" id="6VGeL9zDk2Z" role="3uHU7B">
-                    <node concept="Xl_RD" id="6VGeL9zDjnm" role="3uHU7B">
-                      <property role="Xl_RC" value="Successfully saved Diagram to: '" />
-                    </node>
-                    <node concept="37vLTw" id="6VGeL9zDk3i" role="3uHU7w">
-                      <ref role="3cqZAo" node="7q_yTti0wve" resolve="file" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
+            <node concept="3cpWs6" id="6VGeL9zEi3p" role="3cqZAp" />
           </node>
-          <node concept="3clFbC" id="7q_yTti0vFR" role="3clFbw">
+          <node concept="3y3z36" id="6VGeL9zEhUP" role="3clFbw">
+            <node concept="37vLTw" id="7q_yTti0v8o" role="3uHU7B">
+              <ref role="3cqZAo" node="7q_yTti0pON" resolve="returnVal" />
+            </node>
             <node concept="10M0yZ" id="7q_yTti0vGU" role="3uHU7w">
               <ref role="3cqZAo" to="dxuu:~JFileChooser.APPROVE_OPTION" resolve="APPROVE_OPTION" />
               <ref role="1PxDUh" to="dxuu:~JFileChooser" resolve="JFileChooser" />
             </node>
-            <node concept="37vLTw" id="7q_yTti0v8o" role="3uHU7B">
-              <ref role="3cqZAo" node="7q_yTti0pON" resolve="returnVal" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="7q_yTti1f4a" role="3cqZAp">
+          <node concept="1PaTwC" id="7q_yTti1f4b" role="1aUNEU">
+            <node concept="3oM_SD" id="7q_yTti1f4c" role="1PaTwD">
+              <property role="3oM_SC" value="Get" />
+            </node>
+            <node concept="3oM_SD" id="7q_yTti1f6c" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7q_yTti1f6q" role="1PaTwD">
+              <property role="3oM_SC" value="selected" />
+            </node>
+            <node concept="3oM_SD" id="7q_yTti1f6N" role="1PaTwD">
+              <property role="3oM_SC" value="file" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="7q_yTti0wvd" role="3cqZAp">
+          <node concept="3cpWsn" id="7q_yTti0wve" role="3cpWs9">
+            <property role="TrG5h" value="file" />
+            <node concept="3uibUv" id="7q_yTti0wvf" role="1tU5fm">
+              <ref role="3uigEE" to="guwi:~File" resolve="File" />
+            </node>
+            <node concept="2OqwBi" id="7q_yTti0wI2" role="33vP2m">
+              <node concept="37vLTw" id="7q_yTti0wvM" role="2Oq$k0">
+                <ref role="3cqZAo" node="7q_yTti0pgL" resolve="fc" />
+              </node>
+              <node concept="liA8E" id="7q_yTti0x1b" role="2OqNvi">
+                <ref role="37wK5l" to="dxuu:~JFileChooser.getSelectedFile()" resolve="getSelectedFile" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="6VGeL9zE8u$" role="3cqZAp">
+          <node concept="1PaTwC" id="6VGeL9zE8u_" role="1aUNEU">
+            <node concept="3oM_SD" id="6VGeL9zE8uA" role="1PaTwD">
+              <property role="3oM_SC" value="Check" />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE8wY" role="1PaTwD">
+              <property role="3oM_SC" value="if" />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE8x2" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE8x7" role="1PaTwD">
+              <property role="3oM_SC" value="file" />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE8CQ" role="1PaTwD">
+              <property role="3oM_SC" value="has" />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE8FM" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE8FU" role="1PaTwD">
+              <property role="3oM_SC" value="correct" />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE8G3" role="1PaTwD">
+              <property role="3oM_SC" value="file" />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE8Gd" role="1PaTwD">
+              <property role="3oM_SC" value="extension" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="6VGeL9zDAoc" role="3cqZAp">
+          <node concept="3clFbS" id="6VGeL9zDAoe" role="3clFbx">
+            <node concept="3clFbF" id="6VGeL9zDBwy" role="3cqZAp">
+              <node concept="2YIFZM" id="6VGeL9zDBwz" role="3clFbG">
+                <ref role="1Pybhc" to="dxuu:~JOptionPane" resolve="JOptionPane" />
+                <ref role="37wK5l" to="dxuu:~JOptionPane.showMessageDialog(java.awt.Component,java.lang.Object,java.lang.String,int)" resolve="showMessageDialog" />
+                <node concept="10Nm6u" id="6VGeL9zDBw$" role="37wK5m" />
+                <node concept="3cpWs3" id="6VGeL9zDBX0" role="37wK5m">
+                  <node concept="Xl_RD" id="6VGeL9zDBXe" role="3uHU7w">
+                    <property role="Xl_RC" value="' is not a valid SVG file (.svg file extension necessary)." />
+                  </node>
+                  <node concept="3cpWs3" id="6VGeL9zDBwC" role="3uHU7B">
+                    <node concept="Xl_RD" id="6VGeL9zDBwD" role="3uHU7B">
+                      <property role="Xl_RC" value="The file: '" />
+                    </node>
+                    <node concept="37vLTw" id="6VGeL9zDBwE" role="3uHU7w">
+                      <ref role="3cqZAo" node="7q_yTti0wve" resolve="file" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="6VGeL9zDBwG" role="37wK5m">
+                  <property role="Xl_RC" value="Error" />
+                </node>
+                <node concept="10M0yZ" id="6VGeL9zDBwH" role="37wK5m">
+                  <ref role="3cqZAo" to="dxuu:~JOptionPane.ERROR_MESSAGE" resolve="ERROR_MESSAGE" />
+                  <ref role="1PxDUh" to="dxuu:~JOptionPane" resolve="JOptionPane" />
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs6" id="6VGeL9zDERD" role="3cqZAp" />
+          </node>
+          <node concept="3fqX7Q" id="6VGeL9zDAPV" role="3clFbw">
+            <node concept="2OqwBi" id="6VGeL9zDBau" role="3fr31v">
+              <node concept="2OqwBi" id="6VGeL9zDAPX" role="2Oq$k0">
+                <node concept="37vLTw" id="6VGeL9zDAPY" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7q_yTti0wve" resolve="file" />
+                </node>
+                <node concept="liA8E" id="6VGeL9zDZZ6" role="2OqNvi">
+                  <ref role="37wK5l" to="guwi:~File.getName()" resolve="getName" />
+                </node>
+              </node>
+              <node concept="liA8E" id="6VGeL9zDBq5" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.endsWith(java.lang.String)" resolve="endsWith" />
+                <node concept="Xl_RD" id="6VGeL9zDBsv" role="37wK5m">
+                  <property role="Xl_RC" value="svg" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="6VGeL9zE93Y" role="3cqZAp">
+          <node concept="1PaTwC" id="6VGeL9zE93Z" role="1aUNEU">
+            <node concept="3oM_SD" id="6VGeL9zE940" role="1PaTwD">
+              <property role="3oM_SC" value="Check" />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE9dU" role="1PaTwD">
+              <property role="3oM_SC" value="that" />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE9dY" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE9fm" role="1PaTwD">
+              <property role="3oM_SC" value="user" />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE9fs" role="1PaTwD">
+              <property role="3oM_SC" value="has" />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE9h6" role="1PaTwD">
+              <property role="3oM_SC" value="not" />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE9he" role="1PaTwD">
+              <property role="3oM_SC" value="selected" />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE9ld" role="1PaTwD">
+              <property role="3oM_SC" value="a" />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE9ln" role="1PaTwD">
+              <property role="3oM_SC" value="directory" />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE9o6" role="1PaTwD">
+              <property role="3oM_SC" value="and" />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE9p$" role="1PaTwD">
+              <property role="3oM_SC" value="that" />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE9pL" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE9pZ" role="1PaTwD">
+              <property role="3oM_SC" value="file" />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE9rw" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE9rK" role="1PaTwD">
+              <property role="3oM_SC" value="indeed" />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE9tj" role="1PaTwD">
+              <property role="3oM_SC" value="a" />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE9t_" role="1PaTwD">
+              <property role="3oM_SC" value="file" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="7q_yTti0zMH" role="3cqZAp">
+          <node concept="3clFbS" id="7q_yTti0zMJ" role="3clFbx">
+            <node concept="3clFbF" id="6VGeL9zDFmJ" role="3cqZAp">
+              <node concept="2YIFZM" id="6VGeL9zDFmK" role="3clFbG">
+                <ref role="37wK5l" to="dxuu:~JOptionPane.showMessageDialog(java.awt.Component,java.lang.Object,java.lang.String,int)" resolve="showMessageDialog" />
+                <ref role="1Pybhc" to="dxuu:~JOptionPane" resolve="JOptionPane" />
+                <node concept="10Nm6u" id="6VGeL9zDFmL" role="37wK5m" />
+                <node concept="3cpWs3" id="6VGeL9zDFmM" role="37wK5m">
+                  <node concept="Xl_RD" id="6VGeL9zDFmN" role="3uHU7w">
+                    <property role="Xl_RC" value="' is not a valid SVG file (.svg file extension necessary)." />
+                  </node>
+                  <node concept="3cpWs3" id="6VGeL9zDFmO" role="3uHU7B">
+                    <node concept="Xl_RD" id="6VGeL9zDFmP" role="3uHU7B">
+                      <property role="Xl_RC" value="The file: '" />
+                    </node>
+                    <node concept="37vLTw" id="6VGeL9zDFmQ" role="3uHU7w">
+                      <ref role="3cqZAo" node="7q_yTti0wve" resolve="file" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="6VGeL9zDFmR" role="37wK5m">
+                  <property role="Xl_RC" value="Error" />
+                </node>
+                <node concept="10M0yZ" id="6VGeL9zDFmS" role="37wK5m">
+                  <ref role="3cqZAo" to="dxuu:~JOptionPane.ERROR_MESSAGE" resolve="ERROR_MESSAGE" />
+                  <ref role="1PxDUh" to="dxuu:~JOptionPane" resolve="JOptionPane" />
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs6" id="6VGeL9zDFw_" role="3cqZAp" />
+          </node>
+          <node concept="1Wc70l" id="6VGeL9zEa0i" role="3clFbw">
+            <node concept="3fqX7Q" id="6VGeL9zEamw" role="3uHU7w">
+              <node concept="2OqwBi" id="6VGeL9zEamy" role="3fr31v">
+                <node concept="37vLTw" id="6VGeL9zEamz" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7q_yTti0wve" resolve="file" />
+                </node>
+                <node concept="liA8E" id="6VGeL9zEam$" role="2OqNvi">
+                  <ref role="37wK5l" to="guwi:~File.isFile()" resolve="isFile" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="7q_yTti0Ng4" role="3uHU7B">
+              <node concept="37vLTw" id="7q_yTti0Ng5" role="2Oq$k0">
+                <ref role="3cqZAo" node="7q_yTti0wve" resolve="file" />
+              </node>
+              <node concept="liA8E" id="7q_yTti0Ng6" role="2OqNvi">
+                <ref role="37wK5l" to="guwi:~File.isDirectory()" resolve="isDirectory" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3J1_TO" id="6VGeL9zCYWZ" role="3cqZAp">
+          <node concept="3uVAMA" id="6VGeL9zCZ5B" role="1zxBo5">
+            <node concept="XOnhg" id="6VGeL9zCZ5C" role="1zc67B">
+              <property role="TrG5h" value="e" />
+              <node concept="nSUau" id="6VGeL9zCZ5D" role="1tU5fm">
+                <node concept="3uibUv" id="6VGeL9zCZuL" role="nSUat">
+                  <ref role="3uigEE" to="guwi:~FileNotFoundException" resolve="FileNotFoundException" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="6VGeL9zCZ5E" role="1zc67A">
+              <node concept="3SKdUt" id="6VGeL9zEbQ_" role="3cqZAp">
+                <node concept="1PaTwC" id="6VGeL9zEbQA" role="1aUNEU">
+                  <node concept="3oM_SD" id="6VGeL9zEbQB" role="1PaTwD">
+                    <property role="3oM_SC" value="The" />
+                  </node>
+                  <node concept="3oM_SD" id="6VGeL9zEbTj" role="1PaTwD">
+                    <property role="3oM_SC" value="selected" />
+                  </node>
+                  <node concept="3oM_SD" id="6VGeL9zEbZL" role="1PaTwD">
+                    <property role="3oM_SC" value="file" />
+                  </node>
+                  <node concept="3oM_SD" id="6VGeL9zEbZQ" role="1PaTwD">
+                    <property role="3oM_SC" value="was" />
+                  </node>
+                  <node concept="3oM_SD" id="6VGeL9zEc1e" role="1PaTwD">
+                    <property role="3oM_SC" value="not" />
+                  </node>
+                  <node concept="3oM_SD" id="6VGeL9zEc2B" role="1PaTwD">
+                    <property role="3oM_SC" value="found" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3SKdUt" id="6VGeL9zEcbD" role="3cqZAp">
+                <node concept="1PaTwC" id="6VGeL9zEcbE" role="1aUNEU">
+                  <node concept="3oM_SD" id="6VGeL9zEcbF" role="1PaTwD">
+                    <property role="3oM_SC" value="TODO:" />
+                  </node>
+                  <node concept="3oM_SD" id="6VGeL9zEcfP" role="1PaTwD">
+                    <property role="3oM_SC" value="If" />
+                  </node>
+                  <node concept="3oM_SD" id="6VGeL9zEcjJ" role="1PaTwD">
+                    <property role="3oM_SC" value="file" />
+                  </node>
+                  <node concept="3oM_SD" id="6VGeL9zEcl6" role="1PaTwD">
+                    <property role="3oM_SC" value="is" />
+                  </node>
+                  <node concept="3oM_SD" id="6VGeL9zEcmu" role="1PaTwD">
+                    <property role="3oM_SC" value="not" />
+                  </node>
+                  <node concept="3oM_SD" id="6VGeL9zEcm_" role="1PaTwD">
+                    <property role="3oM_SC" value="found" />
+                  </node>
+                  <node concept="3oM_SD" id="6VGeL9zEcnZ" role="1PaTwD">
+                    <property role="3oM_SC" value="create" />
+                  </node>
+                  <node concept="3oM_SD" id="6VGeL9zEco8" role="1PaTwD">
+                    <property role="3oM_SC" value="new" />
+                  </node>
+                  <node concept="3oM_SD" id="6VGeL9zEcp$" role="1PaTwD">
+                    <property role="3oM_SC" value="file" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3SKdUt" id="6VGeL9zEa$s" role="3cqZAp">
+                <node concept="1PaTwC" id="6VGeL9zEa$t" role="1aUNEU">
+                  <node concept="3oM_SD" id="6VGeL9zEaYi" role="1PaTwD">
+                    <property role="3oM_SC" value="Show" />
+                  </node>
+                  <node concept="3oM_SD" id="6VGeL9zEb2z" role="1PaTwD">
+                    <property role="3oM_SC" value="error" />
+                  </node>
+                  <node concept="3oM_SD" id="6VGeL9zEb3T" role="1PaTwD">
+                    <property role="3oM_SC" value="to" />
+                  </node>
+                  <node concept="3oM_SD" id="6VGeL9zEb5g" role="1PaTwD">
+                    <property role="3oM_SC" value="user" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="6VGeL9zDum0" role="3cqZAp">
+                <node concept="2YIFZM" id="6VGeL9zDum1" role="3clFbG">
+                  <ref role="37wK5l" to="dxuu:~JOptionPane.showMessageDialog(java.awt.Component,java.lang.Object,java.lang.String,int)" resolve="showMessageDialog" />
+                  <ref role="1Pybhc" to="dxuu:~JOptionPane" resolve="JOptionPane" />
+                  <node concept="10Nm6u" id="6VGeL9zDum2" role="37wK5m" />
+                  <node concept="3cpWs3" id="6VGeL9zDw4P" role="37wK5m">
+                    <node concept="37vLTw" id="6VGeL9zDw53" role="3uHU7w">
+                      <ref role="3cqZAo" node="6VGeL9zCZ5C" resolve="e" />
+                    </node>
+                    <node concept="3cpWs3" id="6VGeL9zDviJ" role="3uHU7B">
+                      <node concept="3cpWs3" id="6VGeL9zDum3" role="3uHU7B">
+                        <node concept="Xl_RD" id="6VGeL9zDum5" role="3uHU7B">
+                          <property role="Xl_RC" value="The file: '" />
+                        </node>
+                        <node concept="37vLTw" id="6VGeL9zDum4" role="3uHU7w">
+                          <ref role="3cqZAo" node="7q_yTti0wve" resolve="file" />
+                        </node>
+                      </node>
+                      <node concept="Xl_RD" id="6VGeL9zDvmw" role="3uHU7w">
+                        <property role="Xl_RC" value="' cannot be found. ErrorMessage: " />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="6VGeL9zDuxO" role="37wK5m">
+                    <property role="Xl_RC" value="Error" />
+                  </node>
+                  <node concept="10M0yZ" id="6VGeL9zDuO5" role="37wK5m">
+                    <ref role="3cqZAo" to="dxuu:~JOptionPane.ERROR_MESSAGE" resolve="ERROR_MESSAGE" />
+                    <ref role="1PxDUh" to="dxuu:~JOptionPane" resolve="JOptionPane" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWs6" id="6VGeL9zDIfr" role="3cqZAp" />
+            </node>
+          </node>
+          <node concept="3uVAMA" id="6VGeL9zCZyx" role="1zxBo5">
+            <node concept="XOnhg" id="6VGeL9zCZyy" role="1zc67B">
+              <property role="TrG5h" value="e" />
+              <node concept="nSUau" id="6VGeL9zCZyz" role="1tU5fm">
+                <node concept="3uibUv" id="6VGeL9zD024" role="nSUat">
+                  <ref role="3uigEE" to="guwi:~UnsupportedEncodingException" resolve="UnsupportedEncodingException" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="6VGeL9zCZy$" role="1zc67A">
+              <node concept="3SKdUt" id="6VGeL9zEczr" role="3cqZAp">
+                <node concept="1PaTwC" id="6VGeL9zEczs" role="1aUNEU">
+                  <node concept="3oM_SD" id="6VGeL9zEczt" role="1PaTwD">
+                    <property role="3oM_SC" value="The" />
+                  </node>
+                  <node concept="3oM_SD" id="6VGeL9zEc_O" role="1PaTwD">
+                    <property role="3oM_SC" value="UTF-8" />
+                  </node>
+                  <node concept="3oM_SD" id="6VGeL9zEcCs" role="1PaTwD">
+                    <property role="3oM_SC" value="encoding" />
+                  </node>
+                  <node concept="3oM_SD" id="6VGeL9zEcF5" role="1PaTwD">
+                    <property role="3oM_SC" value="is" />
+                  </node>
+                  <node concept="3oM_SD" id="6VGeL9zEcGt" role="1PaTwD">
+                    <property role="3oM_SC" value="not" />
+                  </node>
+                  <node concept="3oM_SD" id="6VGeL9zEcJ8" role="1PaTwD">
+                    <property role="3oM_SC" value="supported" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3SKdUt" id="6VGeL9zEaNL" role="3cqZAp">
+                <node concept="1PaTwC" id="6VGeL9zEaNM" role="1aUNEU">
+                  <node concept="3oM_SD" id="6VGeL9zEaNN" role="1PaTwD">
+                    <property role="3oM_SC" value="Show" />
+                  </node>
+                  <node concept="3oM_SD" id="6VGeL9zEaRw" role="1PaTwD">
+                    <property role="3oM_SC" value="error" />
+                  </node>
+                  <node concept="3oM_SD" id="6VGeL9zEaSQ" role="1PaTwD">
+                    <property role="3oM_SC" value="to" />
+                  </node>
+                  <node concept="3oM_SD" id="6VGeL9zEaUd" role="1PaTwD">
+                    <property role="3oM_SC" value="user" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="6VGeL9zDwfc" role="3cqZAp">
+                <node concept="2YIFZM" id="6VGeL9zDwfd" role="3clFbG">
+                  <ref role="1Pybhc" to="dxuu:~JOptionPane" resolve="JOptionPane" />
+                  <ref role="37wK5l" to="dxuu:~JOptionPane.showMessageDialog(java.awt.Component,java.lang.Object,java.lang.String,int)" resolve="showMessageDialog" />
+                  <node concept="10Nm6u" id="6VGeL9zDwfe" role="37wK5m" />
+                  <node concept="3cpWs3" id="6VGeL9zDwff" role="37wK5m">
+                    <node concept="37vLTw" id="6VGeL9zDwfg" role="3uHU7w">
+                      <ref role="3cqZAo" node="6VGeL9zCZyy" resolve="e" />
+                    </node>
+                    <node concept="Xl_RD" id="6VGeL9zDwEi" role="3uHU7B">
+                      <property role="Xl_RC" value="The UTF-8 encoding is unsupported. ErrorMessage: " />
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="6VGeL9zDwfm" role="37wK5m">
+                    <property role="Xl_RC" value="Error" />
+                  </node>
+                  <node concept="10M0yZ" id="6VGeL9zDwfn" role="37wK5m">
+                    <ref role="3cqZAo" to="dxuu:~JOptionPane.ERROR_MESSAGE" resolve="ERROR_MESSAGE" />
+                    <ref role="1PxDUh" to="dxuu:~JOptionPane" resolve="JOptionPane" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWs6" id="6VGeL9zDIi0" role="3cqZAp" />
+            </node>
+          </node>
+          <node concept="3uVAMA" id="6VGeL9zD0kX" role="1zxBo5">
+            <node concept="XOnhg" id="6VGeL9zD0kY" role="1zc67B">
+              <property role="TrG5h" value="e" />
+              <node concept="nSUau" id="6VGeL9zD0kZ" role="1tU5fm">
+                <node concept="3uibUv" id="6VGeL9zD0qk" role="nSUat">
+                  <ref role="3uigEE" to="nxzt:~SVGGraphics2DIOException" resolve="SVGGraphics2DIOException" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="6VGeL9zD0l0" role="1zc67A">
+              <node concept="3SKdUt" id="6VGeL9zEcSQ" role="3cqZAp">
+                <node concept="1PaTwC" id="6VGeL9zEcSR" role="1aUNEU">
+                  <node concept="3oM_SD" id="6VGeL9zEcSS" role="1PaTwD">
+                    <property role="3oM_SC" value="Streaming" />
+                  </node>
+                  <node concept="3oM_SD" id="6VGeL9zEcWx" role="1PaTwD">
+                    <property role="3oM_SC" value="the" />
+                  </node>
+                  <node concept="3oM_SD" id="6VGeL9zEcXR" role="1PaTwD">
+                    <property role="3oM_SC" value="SVGGraphics2D" />
+                  </node>
+                  <node concept="3oM_SD" id="6VGeL9zEd0w" role="1PaTwD">
+                    <property role="3oM_SC" value="into" />
+                  </node>
+                  <node concept="3oM_SD" id="6VGeL9zEd1S" role="1PaTwD">
+                    <property role="3oM_SC" value="the" />
+                  </node>
+                  <node concept="3oM_SD" id="6VGeL9zEd1Z" role="1PaTwD">
+                    <property role="3oM_SC" value="OutputStream" />
+                  </node>
+                  <node concept="3oM_SD" id="6VGeL9zEd7f" role="1PaTwD">
+                    <property role="3oM_SC" value="threw" />
+                  </node>
+                  <node concept="3oM_SD" id="6VGeL9zEd9W" role="1PaTwD">
+                    <property role="3oM_SC" value="an" />
+                  </node>
+                  <node concept="3oM_SD" id="6VGeL9zEda6" role="1PaTwD">
+                    <property role="3oM_SC" value="error" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3SKdUt" id="6VGeL9zEdjX" role="3cqZAp">
+                <node concept="1PaTwC" id="6VGeL9zEdjY" role="1aUNEU">
+                  <node concept="3oM_SD" id="6VGeL9zEdqw" role="1PaTwD">
+                    <property role="3oM_SC" value="Show" />
+                  </node>
+                  <node concept="3oM_SD" id="6VGeL9zEds0" role="1PaTwD">
+                    <property role="3oM_SC" value="error" />
+                  </node>
+                  <node concept="3oM_SD" id="6VGeL9zEduC" role="1PaTwD">
+                    <property role="3oM_SC" value="to" />
+                  </node>
+                  <node concept="3oM_SD" id="6VGeL9zEduH" role="1PaTwD">
+                    <property role="3oM_SC" value="user" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="6VGeL9zDx1Y" role="3cqZAp">
+                <node concept="2YIFZM" id="6VGeL9zDx1Z" role="3clFbG">
+                  <ref role="37wK5l" to="dxuu:~JOptionPane.showMessageDialog(java.awt.Component,java.lang.Object,java.lang.String,int)" resolve="showMessageDialog" />
+                  <ref role="1Pybhc" to="dxuu:~JOptionPane" resolve="JOptionPane" />
+                  <node concept="10Nm6u" id="6VGeL9zDx20" role="37wK5m" />
+                  <node concept="3cpWs3" id="6VGeL9zDx21" role="37wK5m">
+                    <node concept="37vLTw" id="6VGeL9zDx22" role="3uHU7w">
+                      <ref role="3cqZAo" node="6VGeL9zD0kY" resolve="e" />
+                    </node>
+                    <node concept="Xl_RD" id="6VGeL9zDx23" role="3uHU7B">
+                      <property role="Xl_RC" value="There was an error writing the SVG file. ErrorMessage: " />
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="6VGeL9zDx24" role="37wK5m">
+                    <property role="Xl_RC" value="Error" />
+                  </node>
+                  <node concept="10M0yZ" id="6VGeL9zDx25" role="37wK5m">
+                    <ref role="3cqZAo" to="dxuu:~JOptionPane.ERROR_MESSAGE" resolve="ERROR_MESSAGE" />
+                    <ref role="1PxDUh" to="dxuu:~JOptionPane" resolve="JOptionPane" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWs6" id="6VGeL9zDIk7" role="3cqZAp" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="6VGeL9zCYX1" role="1zxBo7">
+            <node concept="3SKdUt" id="7q_yTti1fcP" role="3cqZAp">
+              <node concept="1PaTwC" id="7q_yTti1fcQ" role="1aUNEU">
+                <node concept="3oM_SD" id="7q_yTti1fcR" role="1PaTwD">
+                  <property role="3oM_SC" value="Save" />
+                </node>
+                <node concept="3oM_SD" id="7q_yTti1fdH" role="1PaTwD">
+                  <property role="3oM_SC" value="the" />
+                </node>
+                <node concept="3oM_SD" id="7q_yTti1fdL" role="1PaTwD">
+                  <property role="3oM_SC" value="current" />
+                </node>
+                <node concept="3oM_SD" id="7q_yTti1fe0" role="1PaTwD">
+                  <property role="3oM_SC" value="Diagram" />
+                </node>
+                <node concept="3oM_SD" id="7q_yTti1feg" role="1PaTwD">
+                  <property role="3oM_SC" value="as" />
+                </node>
+                <node concept="3oM_SD" id="7q_yTti1fen" role="1PaTwD">
+                  <property role="3oM_SC" value="a" />
+                </node>
+                <node concept="3oM_SD" id="7q_yTti1feD" role="1PaTwD">
+                  <property role="3oM_SC" value="SVG" />
+                </node>
+                <node concept="3oM_SD" id="7q_yTti1feW" role="1PaTwD">
+                  <property role="3oM_SC" value="image" />
+                </node>
+                <node concept="3oM_SD" id="7q_yTti1ff6" role="1PaTwD">
+                  <property role="3oM_SC" value="in" />
+                </node>
+                <node concept="3oM_SD" id="7q_yTti1ffr" role="1PaTwD">
+                  <property role="3oM_SC" value="the" />
+                </node>
+                <node concept="3oM_SD" id="7q_yTti1ffB" role="1PaTwD">
+                  <property role="3oM_SC" value="entered" />
+                </node>
+                <node concept="3oM_SD" id="7q_yTti1ffY" role="1PaTwD">
+                  <property role="3oM_SC" value="location" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7q_yTti0Nfn" role="3cqZAp">
+              <node concept="2YIFZM" id="7q_yTti0NlP" role="3clFbG">
+                <ref role="1Pybhc" node="7q_yTthSx2P" resolve="SaveSvgIdeaActionUtil" />
+                <ref role="37wK5l" node="7q_yTthSEKt" resolve="saveSvg" />
+                <node concept="2OqwBi" id="7q_yTti0Ny6" role="37wK5m">
+                  <node concept="2WthIp" id="7q_yTti0Nmj" role="2Oq$k0" />
+                  <node concept="1DTwFV" id="7q_yTti0NGP" role="2OqNvi">
+                    <ref role="2WH_rO" node="7q_yTthTGJn" resolve="editorContext" />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="7q_yTti0NJB" role="37wK5m">
+                  <ref role="3cqZAo" node="7q_yTti0wve" resolve="file" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="6VGeL9zE7LM" role="3cqZAp">
+          <node concept="1PaTwC" id="6VGeL9zE7LN" role="1aUNEU">
+            <node concept="3oM_SD" id="6VGeL9zE7LO" role="1PaTwD">
+              <property role="3oM_SC" value="The" />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE7Vz" role="1PaTwD">
+              <property role="3oM_SC" value="SVG" />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE7WT" role="1PaTwD">
+              <property role="3oM_SC" value="was" />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE7WY" role="1PaTwD">
+              <property role="3oM_SC" value="successfully" />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE7Ym" role="1PaTwD">
+              <property role="3oM_SC" value="writing" />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE82j" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE82r" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE82$" role="1PaTwD">
+              <property role="3oM_SC" value="disc." />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE840" role="1PaTwD">
+              <property role="3oM_SC" value="Display" />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE878" role="1PaTwD">
+              <property role="3oM_SC" value="that" />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE88A" role="1PaTwD">
+              <property role="3oM_SC" value="information" />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE88N" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE891" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="6VGeL9zE89g" role="1PaTwD">
+              <property role="3oM_SC" value="user" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6VGeL9zDje0" role="3cqZAp">
+          <node concept="2YIFZM" id="6VGeL9zDjiw" role="3clFbG">
+            <ref role="37wK5l" to="dxuu:~JOptionPane.showMessageDialog(java.awt.Component,java.lang.Object)" resolve="showMessageDialog" />
+            <ref role="1Pybhc" to="dxuu:~JOptionPane" resolve="JOptionPane" />
+            <node concept="10Nm6u" id="6VGeL9zDjlt" role="37wK5m" />
+            <node concept="3cpWs3" id="6VGeL9zDvw6" role="37wK5m">
+              <node concept="Xl_RD" id="6VGeL9zDvwk" role="3uHU7w">
+                <property role="Xl_RC" value="'" />
+              </node>
+              <node concept="3cpWs3" id="6VGeL9zDk2Z" role="3uHU7B">
+                <node concept="Xl_RD" id="6VGeL9zDjnm" role="3uHU7B">
+                  <property role="Xl_RC" value="Successfully saved Diagram to: '" />
+                </node>
+                <node concept="37vLTw" id="6VGeL9zDk3i" role="3uHU7w">
+                  <ref role="3cqZAo" node="7q_yTti0wve" resolve="file" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
