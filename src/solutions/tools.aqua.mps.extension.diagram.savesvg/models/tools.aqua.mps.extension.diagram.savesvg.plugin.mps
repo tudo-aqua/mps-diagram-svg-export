@@ -819,11 +819,8 @@
                 <ref role="3cqZAo" node="7q_yTti0pgL" resolve="fc" />
               </node>
               <node concept="liA8E" id="7q_yTti0qu_" role="2OqNvi">
-                <ref role="37wK5l" to="dxuu:~JFileChooser.showDialog(java.awt.Component,java.lang.String)" resolve="showDialog" />
+                <ref role="37wK5l" to="dxuu:~JFileChooser.showSaveDialog(java.awt.Component)" resolve="showSaveDialog" />
                 <node concept="10Nm6u" id="7q_yTti0qwJ" role="37wK5m" />
-                <node concept="Xl_RD" id="7q_yTti0qyc" role="37wK5m">
-                  <property role="Xl_RC" value="Ok" />
-                </node>
               </node>
             </node>
           </node>
