@@ -2,6 +2,7 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="$PROJECT_DIR$/solutions/tools.aqua.mps.extension.diagram.savesvg.build/tools.aqua.mps.extension.diagram.savesvg.build.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/tools.aqua.mps.extension.diagram.savesvg/tools.aqua.mps.extension.diagram.savesvg.msd" folder="" />
     </projectModules>
   </component>
