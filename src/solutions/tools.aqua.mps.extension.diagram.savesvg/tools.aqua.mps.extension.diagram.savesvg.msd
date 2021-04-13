@@ -4,7 +4,8 @@
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
-    <modelRoot contentPath="${module}/lib" type="java_classes">
+    <modelRoot contentPath="${module}/libs" type="java_classes">
+      <sourceRoot location="." />
       <sourceRoot location="batik-all-1.14.jar" />
     </modelRoot>
   </models>
@@ -14,7 +15,7 @@
     </facet>
   </facets>
   <stubModelEntries>
-    <stubModelEntry path="${module}/lib/batik-all-1.14.jar" />
+    <stubModelEntry path="${module}/libs/batik-all-1.14.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
