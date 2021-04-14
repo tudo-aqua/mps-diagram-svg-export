@@ -20,7 +20,13 @@
     <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
     <import index="3fkn" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.fileChooser(MPS.IDEA/)" />
     <import index="jlyv" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.filechooser(JDK/)" />
-    <import index="jkm4" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.ui(MPS.IDEA/)" />
+    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
+    <import index="1njx" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:com.mxgraph.view(de.itemis.mps.editor.diagram.runtime/)" />
+    <import index="99ht" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:com.mxgraph.model(de.itemis.mps.editor.diagram.runtime/)" />
+    <import index="hox0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.style(MPS.Editor/)" />
+    <import index="5ueo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.runtime.style(MPS.Editor/)" />
+    <import index="qveq" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:com.mxgraph.swing.handler(de.itemis.mps.editor.diagram.runtime/)" />
+    <import index="h31v" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.make.dependencies.graph(MPS.Core/)" />
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="exr9" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor(MPS.Editor/)" implicit="true" />
@@ -403,6 +409,86 @@
           </node>
         </node>
         <node concept="3clFbH" id="7q_yTthSNpy" role="3cqZAp" />
+        <node concept="3SKdUt" id="1OjSjUC_nKb" role="3cqZAp">
+          <node concept="1PaTwC" id="1OjSjUC_nKc" role="1aUNEU">
+            <node concept="3oM_SD" id="1OjSjUC_nKd" role="1PaTwD">
+              <property role="3oM_SC" value="Create" />
+            </node>
+            <node concept="3oM_SD" id="1OjSjUC_nTm" role="1PaTwD">
+              <property role="3oM_SC" value="new" />
+            </node>
+            <node concept="3oM_SD" id="1OjSjUC_nTp" role="1PaTwD">
+              <property role="3oM_SC" value="SVGGeneratorContext" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1OjSjUCzgRW" role="3cqZAp">
+          <node concept="3cpWsn" id="1OjSjUCzgRX" role="3cpWs9">
+            <property role="TrG5h" value="context" />
+            <node concept="3uibUv" id="1OjSjUCzgRY" role="1tU5fm">
+              <ref role="3uigEE" to="nxzt:~SVGGeneratorContext" resolve="SVGGeneratorContext" />
+            </node>
+            <node concept="2YIFZM" id="1OjSjUCzoav" role="33vP2m">
+              <ref role="37wK5l" to="nxzt:~SVGGeneratorContext.createDefault(org.w3c.dom.Document)" resolve="createDefault" />
+              <ref role="1Pybhc" to="nxzt:~SVGGeneratorContext" resolve="SVGGeneratorContext" />
+              <node concept="37vLTw" id="1OjSjUCzorI" role="37wK5m">
+                <ref role="3cqZAo" node="7q_yTthSN30" resolve="document" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1OjSjUC_oHG" role="3cqZAp" />
+        <node concept="3SKdUt" id="1OjSjUC_oli" role="3cqZAp">
+          <node concept="1PaTwC" id="1OjSjUC_olj" role="1aUNEU">
+            <node concept="3oM_SD" id="1OjSjUC_olk" role="1PaTwD">
+              <property role="3oM_SC" value="Add" />
+            </node>
+            <node concept="3oM_SD" id="1OjSjUC_oEx" role="1PaTwD">
+              <property role="3oM_SC" value="embedded" />
+            </node>
+            <node concept="3oM_SD" id="1OjSjUC_oFA" role="1PaTwD">
+              <property role="3oM_SC" value="fonts," />
+            </node>
+            <node concept="3oM_SD" id="1OjSjUC_oFE" role="1PaTwD">
+              <property role="3oM_SC" value="such" />
+            </node>
+            <node concept="3oM_SD" id="1OjSjUC_oFJ" role="1PaTwD">
+              <property role="3oM_SC" value="that" />
+            </node>
+            <node concept="3oM_SD" id="1OjSjUC_oFP" role="1PaTwD">
+              <property role="3oM_SC" value="they" />
+            </node>
+            <node concept="3oM_SD" id="1OjSjUC_oG4" role="1PaTwD">
+              <property role="3oM_SC" value="are" />
+            </node>
+            <node concept="3oM_SD" id="1OjSjUC_oGc" role="1PaTwD">
+              <property role="3oM_SC" value="included" />
+            </node>
+            <node concept="3oM_SD" id="1OjSjUC_oGH" role="1PaTwD">
+              <property role="3oM_SC" value="in" />
+            </node>
+            <node concept="3oM_SD" id="1OjSjUC_oGZ" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="1OjSjUC_oHa" role="1PaTwD">
+              <property role="3oM_SC" value="SVG" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1OjSjUCzpQv" role="3cqZAp">
+          <node concept="2OqwBi" id="1OjSjUCzqZO" role="3clFbG">
+            <node concept="37vLTw" id="1OjSjUCzpQt" role="2Oq$k0">
+              <ref role="3cqZAo" node="1OjSjUCzgRX" resolve="context" />
+            </node>
+            <node concept="liA8E" id="1OjSjUCzs2A" role="2OqNvi">
+              <ref role="37wK5l" to="nxzt:~SVGGeneratorContext.setEmbeddedFontsOn(boolean)" resolve="setEmbeddedFontsOn" />
+              <node concept="3clFbT" id="1OjSjUCzsc4" role="37wK5m">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1OjSjUCzdUE" role="3cqZAp" />
         <node concept="3SKdUt" id="7q_yTthSNxV" role="3cqZAp">
           <node concept="1PaTwC" id="7q_yTthSNxW" role="1aUNEU">
             <node concept="3oM_SD" id="7q_yTthSNxX" role="1PaTwD">
@@ -426,6 +512,36 @@
             <node concept="3oM_SD" id="7q_yTthSN_t" role="1PaTwD">
               <property role="3oM_SC" value="Generator" />
             </node>
+            <node concept="3oM_SD" id="1OjSjUC_qBD" role="1PaTwD">
+              <property role="3oM_SC" value="with" />
+            </node>
+            <node concept="3oM_SD" id="1OjSjUC_qBU" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="1OjSjUC_qC4" role="1PaTwD">
+              <property role="3oM_SC" value="created" />
+            </node>
+            <node concept="3oM_SD" id="1OjSjUC_qCn" role="1PaTwD">
+              <property role="3oM_SC" value="context" />
+            </node>
+            <node concept="3oM_SD" id="1OjSjUC_qD1" role="1PaTwD">
+              <property role="3oM_SC" value="and" />
+            </node>
+            <node concept="3oM_SD" id="1OjSjUC_qDu" role="1PaTwD">
+              <property role="3oM_SC" value="with" />
+            </node>
+            <node concept="3oM_SD" id="1OjSjUC_qDG" role="1PaTwD">
+              <property role="3oM_SC" value="text" />
+            </node>
+            <node concept="3oM_SD" id="1OjSjUC_qM8" role="1PaTwD">
+              <property role="3oM_SC" value="as" />
+            </node>
+            <node concept="3oM_SD" id="1OjSjUC_qMo" role="1PaTwD">
+              <property role="3oM_SC" value="shapes" />
+            </node>
+            <node concept="3oM_SD" id="1OjSjUC_qML" role="1PaTwD">
+              <property role="3oM_SC" value="enabled" />
+            </node>
           </node>
         </node>
         <node concept="3cpWs8" id="7q_yTthSO58" role="3cqZAp">
@@ -436,58 +552,86 @@
             </node>
             <node concept="2ShNRf" id="7q_yTthSO95" role="33vP2m">
               <node concept="1pGfFk" id="7q_yTthSUHj" role="2ShVmc">
-                <ref role="37wK5l" to="nxzt:~SVGGraphics2D.&lt;init&gt;(org.w3c.dom.Document)" resolve="SVGGraphics2D" />
-                <node concept="37vLTw" id="7q_yTthSWcw" role="37wK5m">
-                  <ref role="3cqZAo" node="7q_yTthSN30" resolve="document" />
+                <ref role="37wK5l" to="nxzt:~SVGGraphics2D.&lt;init&gt;(org.apache.batik.svggen.SVGGeneratorContext,boolean)" resolve="SVGGraphics2D" />
+                <node concept="37vLTw" id="1OjSjUCzsw6" role="37wK5m">
+                  <ref role="3cqZAo" node="1OjSjUCzgRX" resolve="context" />
+                </node>
+                <node concept="3clFbT" id="1OjSjUCzuGk" role="37wK5m">
+                  <property role="3clFbU" value="true" />
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="7q_yTthSWdr" role="3cqZAp" />
+        <node concept="3clFbH" id="1OjSjUCz1E7" role="3cqZAp" />
         <node concept="3SKdUt" id="7q_yTthSWmD" role="3cqZAp">
-          <node concept="1PaTwC" id="7q_yTthSWmE" role="1aUNEU">
-            <node concept="3oM_SD" id="7q_yTthSWmF" role="1PaTwD">
+          <node concept="1PaTwC" id="1OjSjUC_mn7" role="1aUNEU">
+            <node concept="3oM_SD" id="1OjSjUC_mn8" role="1PaTwD">
+              <property role="3oM_SC" value="Get" />
+            </node>
+            <node concept="3oM_SD" id="1OjSjUC_nkm" role="1PaTwD">
+              <property role="3oM_SC" value="paintable" />
+            </node>
+            <node concept="3oM_SD" id="1OjSjUC_nkx" role="1PaTwD">
+              <property role="3oM_SC" value="GraphComponent" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="4kgZovXqgDJ" role="3cqZAp">
+          <node concept="3cpWsn" id="4kgZovXqgDK" role="3cpWs9">
+            <property role="TrG5h" value="graphComponent" />
+            <node concept="3uibUv" id="4kgZovXqgDL" role="1tU5fm">
+              <ref role="3uigEE" to="r3rm:190K99KyNov" resolve="MyGraphComponent" />
+            </node>
+            <node concept="2OqwBi" id="4kgZovXqhLt" role="33vP2m">
+              <node concept="2OqwBi" id="4kgZovXqhp5" role="2Oq$k0">
+                <node concept="37vLTw" id="4kgZovXqgYM" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7q_yTthSHkb" resolve="activeDiagram" />
+                </node>
+                <node concept="liA8E" id="4kgZovXqhz6" role="2OqNvi">
+                  <ref role="37wK5l" to="r3rm:4HMzb$XPdI$" resolve="getContextGraph" />
+                </node>
+              </node>
+              <node concept="liA8E" id="4kgZovXqi4R" role="2OqNvi">
+                <ref role="37wK5l" to="r3rm:eyrvBdlDbJ" resolve="getGraphComponent" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1OjSjUC_n00" role="3cqZAp" />
+        <node concept="3SKdUt" id="1OjSjUC_mQ7" role="3cqZAp">
+          <node concept="1PaTwC" id="1OjSjUC_mQ8" role="1aUNEU">
+            <node concept="3oM_SD" id="1OjSjUC_mn0" role="1PaTwD">
               <property role="3oM_SC" value="Render" />
             </node>
-            <node concept="3oM_SD" id="7q_yTthSWq$" role="1PaTwD">
+            <node concept="3oM_SD" id="1OjSjUC_mn1" role="1PaTwD">
               <property role="3oM_SC" value="BaseDiagramECell" />
             </node>
-            <node concept="3oM_SD" id="7q_yTthSWqB" role="1PaTwD">
+            <node concept="3oM_SD" id="1OjSjUC_mn2" role="1PaTwD">
               <property role="3oM_SC" value="into" />
             </node>
-            <node concept="3oM_SD" id="7q_yTthSWqV" role="1PaTwD">
+            <node concept="3oM_SD" id="1OjSjUC_mn3" role="1PaTwD">
               <property role="3oM_SC" value="the" />
             </node>
-            <node concept="3oM_SD" id="7q_yTthSWr0" role="1PaTwD">
+            <node concept="3oM_SD" id="1OjSjUC_mn4" role="1PaTwD">
               <property role="3oM_SC" value="SVG" />
             </node>
-            <node concept="3oM_SD" id="7q_yTthSWre" role="1PaTwD">
+            <node concept="3oM_SD" id="1OjSjUC_mn5" role="1PaTwD">
               <property role="3oM_SC" value="Graphics2D" />
             </node>
-            <node concept="3oM_SD" id="7q_yTthSWsd" role="1PaTwD">
+            <node concept="3oM_SD" id="1OjSjUC_mn6" role="1PaTwD">
               <property role="3oM_SC" value="implementation" />
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="7q_yTthSW$C" role="3cqZAp">
-          <node concept="2OqwBi" id="7q_yTthSY2Y" role="3clFbG">
-            <node concept="2OqwBi" id="7q_yTthSXzQ" role="2Oq$k0">
-              <node concept="2OqwBi" id="7q_yTthSWYC" role="2Oq$k0">
-                <node concept="37vLTw" id="7q_yTthSW$A" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7q_yTthSHkb" resolve="activeDiagram" />
-                </node>
-                <node concept="liA8E" id="7q_yTthSXsH" role="2OqNvi">
-                  <ref role="37wK5l" to="r3rm:4HMzb$XPdI$" resolve="getContextGraph" />
-                </node>
-              </node>
-              <node concept="liA8E" id="7q_yTthSXHG" role="2OqNvi">
-                <ref role="37wK5l" to="r3rm:eyrvBdlDbJ" resolve="getGraphComponent" />
-              </node>
+        <node concept="3clFbF" id="4kgZovXqXjt" role="3cqZAp">
+          <node concept="2OqwBi" id="4kgZovXqXRY" role="3clFbG">
+            <node concept="37vLTw" id="4kgZovXqXjr" role="2Oq$k0">
+              <ref role="3cqZAo" node="4kgZovXqgDK" resolve="graphComponent" />
             </node>
-            <node concept="liA8E" id="7q_yTthSYG_" role="2OqNvi">
+            <node concept="liA8E" id="4kgZovXqYnE" role="2OqNvi">
               <ref role="37wK5l" to="r3rm:5biqYZYCDn$" resolve="paint" />
-              <node concept="37vLTw" id="7q_yTthSYL$" role="37wK5m">
+              <node concept="37vLTw" id="4kgZovXqYJw" role="37wK5m">
                 <ref role="3cqZAo" node="7q_yTthSO59" resolve="svgGenerator" />
               </node>
             </node>
