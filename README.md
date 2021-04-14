@@ -3,7 +3,7 @@
 This plugin allows for the export of SVG images of `de.itemis.mps.editor.diagram` models.
 
 ## Building
-If you want to manually build the Plugin:
+If you want to manually build the Plugin instead of downloading the pre-packaged release:
 
 1. Clone the project
 2. Build both solutions -> Generates `build.xml`
