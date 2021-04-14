@@ -9,18 +9,18 @@ If you want to manually build the Plugin:
 2. Build both solutions -> Generates `build.xml`
 3. Execute the build file -> `ant -buildfile build.xml`
 
-This generated the same `tools.aqua.mps.extension.diagram.savesvg.zip` files which can be found under `/src/build/artifacts/tools.aqua.mps.extension.diagram.savesvg`.
+This generates the same `tools.aqua.mps.extension.diagram.savesvg.zip` files which can be found under `/src/build/artifacts/tools.aqua.mps.extension.diagram.savesvg`.
 
-In the near future this project will also have a gradle script which build the plugin, such that you can use it in your pipeline.
+In the near future this project will also have a gradle script which builds the plugin, such that you can use it in your pipeline.
 
 ## Installing
 - Install `MPS-Extensions`, especially the `de.itemis.mps.editor.diagram` language and all its dependencies
 - Installation guides:
 	- [https://jetbrains.github.io/MPS-extensions/](https://jetbrains.github.io/MPS-extensions/ "https://jetbrains.github.io/MPS-extensions/") or
 	- [https://tillschallau.de/mps/jetbrains-mps-the-diagram-language/](https://tillschallau.de/mps/jetbrains-mps-the-diagram-language/ "https://tillschallau.de/mps/jetbrains-mps-the-diagram-language/")
-- Download the `tools.aqua.mps.extension.diagram.savesvg.zip` from the [Release Page](https://github.com/tudo-aqua/mps-save-diagrams-to-svg/releases)
+- Download the `tools.aqua.mps.extension.diagram.savesvg.zip` from the [Release Page](https://github.com/tudo-aqua/mps-save-diagrams-to-svg/releases), or build it yourself
 - Extract the zip
-- Move the extracted `tools.aqua.mps.extension.diagram.savesvg` folder into your `/plugins` folder of your local MPS installation
+- Move the inner folder `tools.aqua.mps.extension.diagram.savesvg` of the extracted folder into your `/plugins` folder of your local MPS installation
 - Restart the IDE
 
 You can check that the installation was successful, by checking your local plugins:
@@ -38,10 +38,10 @@ After creating a language which contains a diagram editor ([examples]("https://t
 
 There are two options on how to export your diagram to SVG files:
 
-1. Via the Tools menu
+1. Via the Tools menu:
 	- Select the diagram, such that it gets a small blue border 
 	- `Tools -> Save SVG of current Diagram`
-2. Via the Right-Click menu
+2. Via the Right-Click menu:
 	- Select the diagram, such that it gets a small blue border
 	- Right-Click onto the diagram: `Save SVG of current Diagram`
 
